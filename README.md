@@ -1,25 +1,44 @@
-A Machine Learning–powered web application that predicts the resale price of a car based on user inputs such as present price, kilometers driven, age, fuel type, seller type, and transmission.
-The app is built using Python, Flask, and Scikit-learn
+# 🚗 Car Price Prediction Web App
 
-Project Overview
+A **Machine Learning–powered web application** that predicts the **resale price of a car** based on user inputs such as present price, kilometers driven, age, fuel type, seller type, and transmission.  
+The app is built using **Python, Flask, and Scikit-learn** with a clean **dark-themed UI**.
 
-Predicting car resale prices is a common real-world regression problem.
-This project demonstrates an end-to-end ML workflow, including:
+---
 
-Data preprocessing & feature engineering
+## 🔍 Project Overview
 
-Model training and evaluation
+Predicting car resale prices is a real-world regression problem.  
+This project demonstrates an **end-to-end ML workflow**, including:
 
-Model serialization using Pickle
+- Data preprocessing & feature engineering
+- Model training and evaluation
+- Hyperparameter tuning
+- Model serialization using Pickle
+- Deployment using Flask
+- User-friendly web interface
 
-Deployment using Flask
+---
 
-Machine Learning Model
+## 🧠 Machine Learning Model
 
-Algorithm Used: Random Forest Regressor (Hyperparameter Tuned)
+- **Algorithm Used:** Random Forest Regressor (Hyperparameter Tuned)
+- **Target Variable:** `Selling_Price`
+- **Evaluation Metric:** R² Score ≈ 0.95
+- **Feature Scaling:** StandardScaler
 
-Target Variable: Selling_Price
+### 📊 Model Input Features (in order)
 
-Evaluation Metric: R² Score (~0.95 after tuning)
+['Present_Price',
+'Kms_Driven',
+'Owner',
+'age',
+'Fuel_Type_Diesel',
+'Fuel_Type_Petrol',
+'Seller_Type_Individual',
+'Transmission_Manual']
 
-Feature Scaling: StandardScaler
+👩‍💻 Author
+
+Sandra A S
+B.Tech Computer Science Graduate
+Aspiring Data Scientist 
