@@ -31,12 +31,38 @@ This project demonstrates an **end-to-end ML workflow**, including:
 
 ---
 
+##  Technologies Used
+
+- **Python**
+- **Pandas, NumPy**
+- **Scikit-learn**
+- **Matplotlib, Seaborn**
+- **Flask**
+- **HTML / CSS**
+- **VS Code**
+
+---
+
+## Machine Learning Models Used
+
+- Linear Regression  
+- Random Forest Regressor (Base Model)  
+- Random Forest Regressor (Hyperparameter Tuned)
+
+---
+
+
 ##  Machine Learning Model
 
 - **Algorithm Used:** Random Forest Regressor (Hyperparameter Tuned)
 - **Target Variable:** `Selling_Price`
 - **Evaluation Metric:** R² Score ≈ 0.95
 - **Feature Scaling:** StandardScaler
+
+- ###Result
+
+- <img width="379" height="153" alt="result_screenshot" src="https://github.com/user-attachments/assets/05aaaddc-a822-4942-99fa-3a858775f5d2" />
+
 
 ### 📊 Model Input Features (in order)
 
@@ -49,8 +75,27 @@ This project demonstrates an **end-to-end ML workflow**, including:
 'Seller_Type_Individual',
 'Transmission_Manual']
 
+##  How to Run the Project Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/12sandra/Car-price-prediction-Using-machine-learning.git
+cd Car-price-prediction-Using-machine-learning
+
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run the Flask app
+python app.py
+
+4️⃣ Open in browser
+http://127.0.0.1:5000/
+
 👩‍💻 Author
 
 Sandra A S
+
+
 **B.Tech Computer Science Graduate**
-**Aspiring Data Scientist **
+
+
+**Aspiring Data Scientist**
