@@ -4,6 +4,12 @@ A **Machine Learning–powered web application** that predicts the **resale pric
 The app is built using **Python, Flask, and Scikit-learn** with a clean **dark-themed UI**.
 
 ---
+## 🎥 Project Demo
+
+https://github.com/12sandra/Car-price-prediction-Using-machine-learning/blob/main/car_priceworking.mp4
+
+
+---
 
 ##  Project Overview
 
